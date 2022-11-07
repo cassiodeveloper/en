@@ -1,26 +1,26 @@
 entries:
-  - title: Quer ler umas bobeiras minhas?
+  - title: Do you want to read some of my bull shit?
     url: https://medium.com/@cassiodeveloper
-  - title: Informação
+  - title: Information
     entries:
-      - title: Foco em Application Security, DevSecOps, S-SDLC e assuntos relativos a software seguro.
-      - title: Meus links
+      - title: Focus on Application Security, DevSecOps, S-SDLC and issues related to secure software.
+      - title: links
         url: https://linktr.ee/cassiodeveloper
-  - title: Cursos
+  - title: Courses
     entries:
-      - title: Gratuitos
+      - title: Free
         entries:
           - title: Application Security Experience
             url: https://www.youtube.com/playlist?list=PLC2UsZBhySmJlih_ZOPHO6v60u0-NQ6I5
-      - title: Pagos
+      - title: Paid
         entries:
-          - title: Explicando, SAST
+          - title: Explained, SAST
             url: https://cassio.kpages.online/explicando-sast
-  - title: Projetos
+  - title: Projects
     entries:
-      - title: Livro - Explicando, Application Security
+      - title: Book - Explained, Application Security
         url: https://cassiodeveloper.com.br/livro
-      - title: Comunidade
+      - title: Community
         entries:
           - title: Security BSides Kraków
             url: https://linktr.ee/bsideskrakow
@@ -30,5 +30,5 @@ entries:
             url: https://linktr.ee/devsecopspodcast
           - title: YouTube Channel
             url: https://www.youtube.com/c/CassioBatistaPereira
-  - title: Palestras já publicadas / apresentadas
+  - title: Published talks / presentations
     url: https://onedrive.live.com/?authkey=%21AGGeesW%5FNO1U%2DZc&id=BA3816DBC9706129%2112357&cid=BA3816DBC9706129
