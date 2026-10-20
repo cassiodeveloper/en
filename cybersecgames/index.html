@@ -1,27 +1,28 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Facilitated cybersecurity game sessions for engineering, security, product and leadership teams. Learn threat modeling, privacy, incident response and secure design through play.">
-  <meta name="theme-color" content="#240052">
+  <meta name="theme-color" content="#111111">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self'; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self';">
   <link rel="canonical" href="https://cassiodeveloper.com.br/cybersecgames/">
   <link rel="alternate" hreflang="en" href="https://cassiodeveloper.com.br/cybersecgames/?lang=en">
   <link rel="alternate" hreflang="pt-BR" href="https://cassiodeveloper.com.br/cybersecgames/?lang=pt-BR">
   <link rel="alternate" hreflang="x-default" href="https://cassiodeveloper.com.br/cybersecgames/">
   <link rel="icon" href="/images/icons/favicon.ico" sizes="any">
   <link rel="manifest" href="/cybersecgames/site.webmanifest">
-  <link rel="preload" href="/cybersecgames/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/cybersecgames/assets/fonts/fjalla-one-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/cybersecgames/assets/fonts/public-sans-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/cybersecgames/assets/fonts/castoro-regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="/cybersecgames/styles.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Cássio B. Pereira">
   <meta property="og:title" content="CyberSec Games Facilitator | Cássio B. Pereira">
   <meta property="og:description" content="Facilitated cybersecurity game sessions that turn complex security conversations into memorable, practical learning.">
   <meta property="og:url" content="https://cassiodeveloper.com.br/cybersecgames/">
-  <meta property="og:image" content="https://cassiodeveloper.com.br/cybersecgames/assets/og-card.png">
+  <meta property="og:image" content="https://cassiodeveloper.com.br/cybersecgames/assets/og-card-portfolio.png">
+  <meta property="og:image:alt" content="CyberSec Games facilitated sessions by Cássio B. Pereira">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
@@ -29,7 +30,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CyberSec Games Facilitator | Cássio B. Pereira">
   <meta name="twitter:description" content="Facilitated cybersecurity game sessions that turn complex security conversations into memorable, practical learning.">
-  <meta name="twitter:image" content="https://cassiodeveloper.com.br/cybersecgames/assets/og-card.png">
+  <meta name="twitter:image" content="https://cassiodeveloper.com.br/cybersecgames/assets/og-card-portfolio.png">
+  <meta name="twitter:image:alt" content="CyberSec Games facilitated sessions by Cássio B. Pereira">
   <title>CyberSec Games Facilitator | Cássio B. Pereira</title>
   <script type="application/ld+json">
   {
@@ -40,7 +42,10 @@
     ]
   }
   </script>
-</head>
+  <!-- Google Analytics 4 (propriedade compartilhada cassiodeveloper.com.br) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NL5R9VPGV9"></script>
+  <script src="/cybersecgames/ga-init.js"></script>
+<!-- services-assets:start --><link rel="stylesheet" href="../assets/services-menu.css"><script src="../assets/services-menu.js" defer></script><!-- services-assets:end --></head>
 <body class="csg-page">
   <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
   <header class="site-header" data-header>
@@ -48,7 +53,7 @@
       <a class="wordmark" href="#top" aria-label="Cássio B. Pereira — CyberSec Games Facilitator"><span class="wordmark-token" aria-hidden="true">CBP</span><span><strong>Cássio B. Pereira</strong><small data-i18n="brandRole">CyberSec Games Facilitator</small></span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu><span data-i18n="menu">Menu</span><span aria-hidden="true">☰</span></button>
       <div class="nav-wrap" id="primary-nav" data-nav>
-        <nav class="primary-nav" aria-label="Primary navigation" data-i18n-aria="navLabel">
+        <nav class="primary-nav" aria-label="Primary navigation" data-i18n-aria="navLabel"><!-- services-menu:start --><details class="services-menu"><summary><span data-service-pt="Serviços" data-service-en="Services">Services</span><span class="services-chevron" aria-hidden="true">⌄</span></summary><div class="services-panel"><a href="https://cassiodeveloper.com.br/appsec-nightmare/" data-service-pt="AppSec Nightmare" data-service-en="AppSec Nightmare">AppSec Nightmare</a><a href="https://cassiodeveloper.com.br/yass" data-service-pt="YASS — Assessment AppSec" data-service-en="YASS — AppSec Assessment">YASS — AppSec Assessment</a><a href="https://cassiodeveloper.com.br/IronSoftware" data-service-pt="Software de Ferro — Treinamento" data-service-en="Software de Ferro — Training">Software de Ferro — Training</a><a href="https://cassiodeveloper.com.br/AppSec-On-Fire/" data-service-pt="AppSec On Fire" data-service-en="AppSec On Fire">AppSec On Fire</a><a href="https://cassiodeveloper.com.br/cybersecgames/?lang=en" data-service-pt="CyberSec Games — Workshops" data-service-en="CyberSec Games — Workshops">CyberSec Games — Workshops</a></div></details><!-- services-menu:end -->
           <a href="#how" data-i18n="navHow">How it works</a><a href="#benefits" data-i18n="navBenefits">Benefits</a><a href="#formats" data-i18n="navFormats">Formats</a><a href="#facilitator" data-i18n="navAbout">About Cássio</a>
         </nav>
         <div class="language-switcher" role="group" aria-label="Language" data-i18n-aria="languageLabel"><button type="button" data-language="en" aria-pressed="true">EN</button><button type="button" data-language="pt-BR" aria-pressed="false">PT</button></div>
@@ -151,7 +156,7 @@
       <details><summary data-i18n="faq7Q">Is the session available in Portuguese and English?</summary><p data-i18n="faq7A">Yes. Sessions can be facilitated in English or Brazilian Portuguese.</p></details>
     </div></div></section>
 
-    <section class="contact" id="contact"><div class="shell contact-grid"><div class="contact-copy"><p class="eyebrow" data-i18n="contactEyebrow">Let’s set the table</p><h2 data-i18n="contactTitle">Ready to bring CyberSec Games to your team?</h2><p data-i18n="contactP1">Tell me about your organisation, audience and the cybersecurity challenge you want to explore.</p><p data-i18n="contactP2">Together, we can select the game and session format that best fits your goals.</p><div class="contact-actions"><a class="button button-primary" href="#enquiry" data-i18n="contactCta1">Discuss a session</a><a class="button button-outline-light" href="#enquiry" data-i18n="contactCta2">Bring CyberSec Games to your event</a></div><p class="availability" data-i18n="availability">Available for corporate sessions, conferences, cybersecurity villages and private team experiences across Europe, Brazil and remotely.</p></div>
+    <section class="contact" id="contact"><div class="shell contact-grid"><div class="contact-copy"><p class="eyebrow" data-i18n="contactEyebrow">Let’s set the table</p><h2 data-i18n="contactTitle">Ready to bring CyberSec Games to your team?</h2><p data-i18n="contactP1">Tell me about your organisation, audience and the cybersecurity challenge you want to explore.</p><p data-i18n="contactP2">Together, we can select the game and session format that best fits your goals.</p><div class="contact-actions"><a class="button button-primary" href="https://calendar.app.google/BJYeQfjmCdEQNSfe6" target="_blank" rel="noopener" data-i18n="contactCta1">Discuss a session</a><a class="button button-outline-light" href="https://calendar.app.google/BJYeQfjmCdEQNSfe6" target="_blank" rel="noopener" data-i18n="contactCta2">Bring CyberSec Games to your event</a></div><p class="availability" data-i18n="availability">Available for corporate sessions, conferences, cybersecurity villages and private team experiences across Europe, Brazil and remotely.</p></div>
       <form class="enquiry-form" id="enquiry" data-contact-form novalidate>
         <div class="form-heading"><span class="form-token" aria-hidden="true">?</span><div><h3 data-i18n="formTitle">Tell me about the session</h3><p data-i18n="formIntro">A few details are enough to start the conversation.</p></div></div>
         <div class="form-grid">
@@ -175,7 +180,28 @@
     </div></section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-grid"><div><a class="wordmark footer-wordmark" href="#top"><span class="wordmark-token" aria-hidden="true">CBP</span><span><strong>Cássio B. Pereira</strong><small data-i18n="brandRole">CyberSec Games Facilitator</small></span></a><p data-i18n="footerPositioning">Facilitated learning experiences for better security conversations and decisions.</p></div><div><h2 data-i18n="footerExplore">Explore</h2><a href="#how" data-i18n="navHow">How it works</a><a href="#formats" data-i18n="navFormats">Formats</a><a href="#facilitator" data-i18n="navAbout">About Cássio</a><a href="#contact" data-i18n="navBook">Book a session</a></div><div><h2 data-i18n="footerConnect">Connect</h2><a href="mailto:cassio@cassiobp.com.br">cassio@cassiobp.com.br</a><a href="https://www.linkedin.com/in/cassiodeveloper/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://cybersecgames.com/" target="_blank" rel="noopener noreferrer">CyberSecGames.com</a></div></div><div class="shell legal"><p data-i18n="legal">CyberSec Games names, logos and game titles belong to their respective owners. This page presents independent facilitation services delivered in collaboration with CyberSec Games.</p><p>© <span data-year></span> Cássio B. Pereira.</p></div></footer>
+  <section class="ladder-next" aria-label="next">
+  <div class="ladder-next__inner">
+    <p class="ladder-next__kicker" data-pt="Próximo passo" data-en="What comes next">What comes next</p>
+    <div class="ladder-next__cards">
+      <a class="ladder-next__card ladder-next__card--primary" href="https://cassiodeveloper.com.br/IronSoftware/" data-ladder-from="capacitacao" data-ladder-to="capacitacao">
+        <span class="ladder-next__title" data-pt="AppSec: Software de Ferro" data-en="AppSec: Software of Iron">AppSec: Software of Iron</span>
+        <span class="ladder-next__reason" data-pt="Do jogo para o treinamento prático e duro de 8h." data-en="From the game to the hard 8-hour hands-on training.">From the game to the hard 8-hour hands-on training.</span>
+        <span class="ladder-next__go" data-pt="Ver o treinamento →" data-en="See the training →">See the training →</span>
+      </a>
+      <a class="ladder-next__card" href="https://mariaappsec.com" data-ladder-from="capacitacao" data-ladder-to="recorrencia">
+        <span class="ladder-next__title" data-pt="M.A.R.I.A." data-en="M.A.R.I.A.">M.A.R.I.A.</span>
+        <span class="ladder-next__reason" data-pt="Dê ao time risco priorizado no CI, todo dia." data-en="Give the team prioritized risk in their CI, every day.">Give the team prioritized risk in their CI, every day.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<link rel="stylesheet" href="/cybersecgames/ladder.css">
+
+<script src="/cybersecgames/ladder.js" defer></script>
+
+<footer class="site-footer"><div class="shell footer-grid"><div><a class="wordmark footer-wordmark" href="#top"><span class="wordmark-token" aria-hidden="true">CBP</span><span><strong>Cássio B. Pereira</strong><small data-i18n="brandRole">CyberSec Games Facilitator</small></span></a><p data-i18n="footerPositioning">Facilitated learning experiences for better security conversations and decisions.</p></div><div><h2 data-i18n="footerExplore">Explore</h2><a href="#how" data-i18n="navHow">How it works</a><a href="#formats" data-i18n="navFormats">Formats</a><a href="#facilitator" data-i18n="navAbout">About Cássio</a><a href="#contact" data-i18n="navBook">Book a session</a></div><div><h2 data-i18n="footerConnect">Connect</h2><a href="mailto:cassio@cassiobp.com.br">cassio@cassiobp.com.br</a><a href="https://www.linkedin.com/in/cassiodeveloper/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://cybersecgames.com/" target="_blank" rel="noopener noreferrer">CyberSecGames.com</a></div></div><div class="shell legal"><p data-i18n="legal">CyberSec Games names, logos and game titles belong to their respective owners. This page presents independent facilitation services delivered in collaboration with CyberSec Games.</p><p>© <span data-year></span> Cássio B. Pereira.</p></div></footer>
   <script src="/cybersecgames/script.js" defer></script>
 </body>
 </html>
